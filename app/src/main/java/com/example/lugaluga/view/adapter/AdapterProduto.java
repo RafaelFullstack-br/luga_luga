@@ -15,7 +15,6 @@ import java.util.List;
 
 public class AdapterProduto extends RecyclerView.Adapter<AdapterProduto.ViewHolder> {
 
-
     private List<Produto> produtoList;
 
     public AdapterProduto(List<Produto> produtoList) {
@@ -41,7 +40,7 @@ public class AdapterProduto extends RecyclerView.Adapter<AdapterProduto.ViewHold
 
     @Override
     public int getItemCount() {
-        return 0;
+        return produtoList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
