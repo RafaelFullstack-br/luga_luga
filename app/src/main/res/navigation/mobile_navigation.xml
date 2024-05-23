@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.lugaluga.view.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_produtos"
+        android:name="com.example.lugaluga.view.ProdutosFragment"
+        android:label="@string/menu_produtos"
+        tools:layout="@layout/fragment_produtos"/>
+
+    <fragment
+        android:id="@+id/nav_solitacao"
+        android:name="com.example.lugaluga.view.SolicitacaoFragment"
+        android:label="@string/menu_solicitacao"
+        tools:layout="@layout/fragment_solicitacao"/>
+
+    <fragment
+        android:id="@+id/nav_acompanhamento"
+        android:name="com.example.lugaluga.view.AcompanhamentoFragment"
+        android:label="@string/menu_acompanhamento"
+        tools:layout="@layout/fragment_acompanhamento"/>
+
+    <fragment
+        android:id="@+id/nav_atendimento"
+        android:name="com.example.lugaluga.view.AtendimentoFragment"
+        android:label="@string/menu_atendimento"
+        tools:layout="@layout/fragment_atendimento"/>
+
+    <fragment
+        android:id="@+id/nav_sobrenos"
+        android:name="com.example.lugaluga.view.sobrenosFragment"
+        android:label="@string/menu_sobrenos"
+        tools:layout="@layout/fragment_sobrenos"/>
+
+    <fragment
+        android:id="@+id/nav_faleconosco"
+        android:name="com.example.lugaluga.view.FaleConoscoFragment"
+        android:label="@string/menu_faleconosco"
+        tools:layout="@layout/fragment_fale_conosco"/>
+
+</navigation>
