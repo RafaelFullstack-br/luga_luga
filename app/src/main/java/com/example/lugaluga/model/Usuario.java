@@ -2,7 +2,6 @@ package com.example.lugaluga.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.telephony.ClosedSubscriberGroupInfo;
 
 import java.util.Date;
 
@@ -113,7 +112,7 @@ public class Usuario implements Parcelable {
         return date_birthday;
     }
 
-    public void setDate_birthday(Date date_birthday) {
+    public void setDate_birthday(String date_birthday) {
         this.date_birthday = date_birthday;
     }
 

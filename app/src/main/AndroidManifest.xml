@@ -18,7 +18,7 @@
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.LugaLuga.NoActionBar" />
         <activity
-            android:name=".view.activity_login_user"
+            android:name=".view.CadastroActivity"
             android:exported="false" />
         <activity
             android:name=".view.ProdutoActivity"
