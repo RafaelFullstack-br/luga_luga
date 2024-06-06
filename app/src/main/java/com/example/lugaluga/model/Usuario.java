@@ -8,7 +8,7 @@ import java.util.Date;
 public class Usuario implements Parcelable {
     private String nome;
     private String cpf;
-    private Date date_birthday;
+    private String date_birthday;
     private String cep;
     private String logradouro;
     private Integer numero;
@@ -22,10 +22,10 @@ public class Usuario implements Parcelable {
     public Usuario() {
     }
 
-    public Usuario(String nome, String cpf, Date date_birthday, String cep, Integer numero, String complemento, String bairro, String cidade, String uf, String email, String senha) {
+    public Usuario(String nome, String cpf, String date_birthday, String cep, Integer numero, String complemento, String bairro, String cidade, String uf, String email, String senha) {
         this.nome = nome;
         this.cpf=cpf;
-        this.date_birthday=date_birthday;
+        this.date_birthday = date_birthday;
         this.cep =cep;
         this.logradouro= logradouro;
         this.numero = numero;
@@ -108,7 +108,7 @@ public class Usuario implements Parcelable {
         this.cpf = cpf;
     }
 
-    public Date getDate_birthday() {
+    public String getDate_birthday() {
         return date_birthday;
     }
 

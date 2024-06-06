@@ -4,8 +4,6 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import java.util.Date;
-
 public class UsuarioController {
 
     private SQLiteDatabase db;
@@ -16,7 +14,7 @@ public class UsuarioController {
         banco = new CriarBanco(context);
     }
 
-    public String insereDados (String nome, String cpf, Date dateBirthday, String dataNasc, String cep, String municipio,
+    public String insereDados (String nome, String cpf, String dateBirthday, String dataNasc, String cep, String municipio,
                                String logradouro, int numero, String complemento, String bairro, int telefone,
                                String email, String senha){
 
